@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Quiz de libras</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quiz de libras</h1>
+      <div id="quiz-container">
+        <div class="questao">
+          <img src="imagens/quiz1.png" alt="Questão 1" />
+          <label><input type="radio" name="q1" value="a" />Churrasco</label>
+          <label><input type="radio" name="q1" value="b" />Linguicinha</label>
+          <label
+            ><input type="radio" name="q1" value="c" />Cachorro Quente</label
+          >
+          <button class="next-btn">Próxima</button>
+        </div>
+        <div class="questao oculto">
+          <img src="imagens/quiz2.png" alt="Questão 2" />
+          <label><input type="radio" name="q2" value="a" />Irmã</label>
+          <label><input type="radio" name="q2" value="b" />Mãe</label>
+          <label><input type="radio" name="q2" value="c" />Tia</label>
+          <button class="next-btn">Próxima</button>
+        </div>
+        <div class="questao oculto">
+          <img src="imagens/quiz3.png" alt="Questão 3" />
+          <label><input type="radio" name="q3" value="a" />Pastel</label>
+          <label><input type="radio" name="q3" value="b" />Carne Moida</label>
+          <label><input type="radio" name="q3" value="c" />Carne</label>
+          <button class="next-btn">Próxima</button>
+        </div>
+        <div class="questao oculto">
+          <img src="imagens/quiz4.png" alt="Questão 4" />
+          <label><input type="radio" name="q4" value="a" />Jabuticaba</label>
+          <label><input type="radio" name="q4" value="b" />Abacaxi</label>
+          <label><input type="radio" name="q4" value="c" />Melão</label>
+          <button class="next-btn">Próxima</button>
+        </div>
+        <div class="questao oculto">
+          <img src="imagens/quiz5.png" alt="Questão 5" />
+          <label><input type="radio" name="q5" value="a" />Mãe</label>
+          <label><input type="radio" name="q5" value="b" />Filho</label>
+          <label><input type="radio" name="q5" value="c" />Filha</label>
+          <button class="next-btn">Próxima</button>
+        </div>
+
+        <div class="questao oculto">
+          <img src="imagens\quiz6.png" alt="Questão 6" />
+          <label> <input type="radio" name="q6" value="a" /> Maionese </label>
+          <label> <input type="radio" name="q6" value="b" /> Molho</label>
+          <label> <input type="radio" name="q6" value="c" /> Manteiga </label>
+          <button class="next-btn">Próxima</button>
+        </div>
+
+        <div class="questao oculto">
+          <img src="imagens\quiz7.png" alt="Questão 7" />
+          <label> <input type="radio" name="q7" value="a" /> Tia </label>
+          <label> <input type="radio" name="q7" value="b" /> Prima </label>
+          <label> <input type="radio" name="q7" value="c" /> Sogra </label>
+          <button class="next-btn">Próxima</button>
+        </div>
+
+        <div class="questao oculto">
+          <img src="imagens\quiz8.png" alt="Questão 8" />
+          <label> <input type="radio" name="q8" value="a" /> Vinagre </label>
+          <label> <input type="radio" name="q8" value="b" /> Óleo </label>
+          <label> <input type="radio" name="q8" value="c" /> Suco </label>
+          <button class="next-btn">Próxima</button>
+        </div>
+
+        <div class="questao oculto">
+          <img src="imagens\quiz9.png" alt="Questão 9" />
+          <label> <input type="radio" name="q9" value="a" /> Avôs </label>
+          <label> <input type="radio" name="q9" value="b" /> Irmãos </label>
+          <label> <input type="radio" name="q9" value="c" /> Filhos </label>
+          <button class="next-btn">Próxima</button>
+        </div>
+
+        <div class="questao oculto">
+          <img src="imagens\quiz10.png" alt="Questão 10" />
+          <label> <input type="radio" name="q10" value="a" /> Amargo </label>
+          <label> <input type="radio" name="q10" value="b" /> Pimenta </label>
+          <label> <input type="radio" name="q10" value="c" /> Sal </label>
+          <button class="next-btn">Ver resultado</button>
+        </div>
+        <div id="result-container" class="oculto">
+          <p id="score"></p>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
